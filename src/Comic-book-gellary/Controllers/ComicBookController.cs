@@ -8,9 +8,12 @@ namespace Comic_book_gellary.Controllers
 {
     public class ComicBookController : Controller
     {
-        public string Detail()
+       public ContentResult Detail ()
         {
-            return "Hello from commic books controller";
+            return new ContentResult()
+            {
+                Content = "Hello from Content Result"
+            };
         }
     }
 }
