@@ -13,7 +13,7 @@ namespace Comic_book_gellary.Controllers
         {
             var commicBook = new CommicBook() 
             {
-                SeriesTitle = "The Amazing Spiderman",
+                SeriesTitle = "The Amazing Spider Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.The quick brown fox jumps right over the lazy dog.</p>",
                 Artists = new Artist[] 
